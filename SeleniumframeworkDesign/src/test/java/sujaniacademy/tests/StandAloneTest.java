@@ -16,7 +16,7 @@ import org.testng.Assert;
 public class StandAloneTest {
 
 	public static void main(String[] args) {
-
+//This is for CI/CD integration
 		String productName ="ZARA COAT 3";
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
